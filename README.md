@@ -1,6 +1,6 @@
 # What is it ? 
 
-Dump of available and installed packages in three popular Russian Linux distros - [Astra Linux](https://wikipedia.org/wiki/Astra_Linux), ALT Linux](https://wikipedia.org/wiki/ALT_Linux) and [RedOS](https://ru.wikipedia.org/wiki/РЕД_ОС)
+Dump of available and installed packages in three popular Russian Linux distros - [Astra Linux](https://wikipedia.org/wiki/Astra_Linux), [ALT Linux](https://wikipedia.org/wiki/ALT_Linux) and [RedOS](https://ru.wikipedia.org/wiki/РЕД_ОС)
 
 
 ```
@@ -24,7 +24,7 @@ Astra Linux -> `dpkg-query -f '${binary:Package}\n' -W` && `apt-cache search .` 
 
 RedOS -> `yum list installed` && `yum list available` (after `yum check-update`)
 
-(first command is installed, second is available)
+(first command is list of installed, second - available)
 
 ## Total stat
 
